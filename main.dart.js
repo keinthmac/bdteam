@@ -9981,7 +9981,7 @@ _.d=d
 _.e=e},
 a7o:function(a){var s=0,r=P.W(t.bD),q,p,o,n,m,l
 var $async$a7o=P.S(function(b,c){if(b===1)return P.T(c,r)
-while(true)switch(s){case 0:o=P.a9s("https","jw-depot-api.azurewebsites.net","api/accounts/session/handshake",null)
+while(true)switch(s){case 0:o=P.a9s("https","jw-depot-api.azurewebsites.net","api/auth/session/handshake",null)
 n=t.bD
 m=P.aq(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
@@ -58363,7 +58363,7 @@ n=P.a9s("https","jw-depot-api.azurewebsites.net","api/auth/otp",null)
 m=t.bD
 l=P.aq(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.b(o)],m,m)
 s=3
-return P.a1(G.aa9(n,C.a_.t2(P.aq(["username",q.d,"otp",a],m,m),null),l),$async$pc)
+return P.a1(G.aa9(n,C.a_.t2(P.aq(["otp",a],m,m),null),l),$async$pc)
 case 3:k=c
 if(k.b===200){j=C.a_.bE(0,B.mR(U.mI(k.e).c.a.h(0,"charset")).bE(0,k.x))
 i.a=j
