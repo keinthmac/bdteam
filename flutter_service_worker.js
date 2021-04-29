@@ -3,25 +3,20 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d037237f746838398fa9e7fbe984272b",
-"assets/FontManifest.json": "98526b194799425eb3055e2ab0b05940",
+  "assets/AssetManifest.json": "a1334e1b3d212da5005f89dd58d0faa4",
+"assets/FontManifest.json": "ed8c9a21cce2e1853bf523cd9452ce6b",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/fonts/OpenSans-Bold.ttf": "1025a6e0fb0fa86f17f57cc82a6b9756",
-"assets/fonts/OpenSans-BoldItalic.ttf": "3a8113737b373d5bccd6f71d91408d16",
-"assets/fonts/OpenSans-ExtraBold.ttf": "fb7e3a294cb07a54605a8bb27f0cd528",
 "assets/fonts/OpenSans-Italic.ttf": "f6238deb7f40a7a03134c11fb63ad387",
-"assets/fonts/OpenSans-Light.ttf": "2d0bdc8df10dee036ca3bedf6f3647c6",
-"assets/fonts/OpenSans-LightItalic.ttf": "c147d1302b974387afd38590072e7294",
 "assets/fonts/OpenSans-Regular.ttf": "3ed9575dcc488c3e3a5bd66620bdf5a4",
-"assets/fonts/OpenSans-SemiBold.ttf": "ba5cde21eeea0d57ab7efefc99596cce",
 "assets/NOTICES": "6831ca130ff589a09ca5001599f80d8f",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "d8827788ce85114af79017d6f7c03630",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "e50de0b60a59acb46a33aa5386af518b",
-"/": "e50de0b60a59acb46a33aa5386af518b",
-"main.dart.js": "64135c0cc9f497bafdb7df89f0cf6891",
+"index.html": "56244f9bd376df9dc8a2c3c53062f1a7",
+"/": "56244f9bd376df9dc8a2c3c53062f1a7",
+"main.dart.js": "aed30bca1b3bb93f5f3938f65ae3a543",
 "manifest.json": "6e06320119f240404503be8f4aa5c8a7",
 "version.json": "71d7066c3afcc3a31fb85915b3b9f22a"
 };
