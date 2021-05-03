@@ -73565,7 +73565,7 @@ if(n==null){s=1
 break}o=p.dx
 o.sk(0,!0)
 p.db.toString
-m=P.akg("https","localhost:5001","api/session/handshake",null)
+m=P.akg("https","jw-depot-api.azurewebsites.net","api/session/handshake",null)
 l=t.a
 k=P.aC(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=4
@@ -73592,7 +73592,7 @@ j.sk(0,"")
 p=q.dx
 p.sk(0,!0)
 q.db.toString
-o=P.akg("https","localhost:5001","api/session/authenticate",null)
+o=P.akg("https","jw-depot-api.azurewebsites.net","api/session/authenticate",null)
 n=t.a
 m=P.aC(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=2
@@ -73685,7 +73685,7 @@ o=q.dx.giL().tB(0,"Token",p)
 q.db.toString
 n=t.a
 s=2
-return P.R(G.aKr(P.akg("https","localhost:5001","api/session/fetch",null),P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.c(o)],n,n)),$async$x8)
+return P.R(G.aKr(P.akg("https","jw-depot-api.azurewebsites.net","api/session/fetch",null),P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.c(o)],n,n)),$async$x8)
 case 2:m=b
 if(m.b===200){p=T.aGF(C.T.cu(0,B.Uk(J.at(U.U6(m.e).c.a,"charset")).cu(0,m.x)))
 q.fr=p
@@ -73748,7 +73748,7 @@ q.dy.sk(0,"Signing document")
 o=t.z
 n=q.fr.giL().tB(0,"Token",o)
 q.db.toString
-m=P.akg("https","localhost:5001","api/session/sign",null)
+m=P.akg("https","jw-depot-api.azurewebsites.net","api/session/sign",null)
 l=t.a
 k=P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.c(n)],l,l)
 s=2
@@ -73907,7 +73907,7 @@ var $async$wZ=P.G(function(c,d){if(c===1)return P.I(d,r)
 while(true)switch(s){case 0:o=p.a.wT()
 p.a.toString
 s=3
-return P.R(o.Gb(0,"https://localhost:5001/api//accounts/receipt/"+H.c(a),B.aoJ(!1,C.dH,new X.V_()),t.z),$async$wZ)
+return P.R(o.Gb(0,"https://jw-depot-api.azurewebsites.net/api//accounts/receipt/"+H.c(a),B.aoJ(!1,C.dH,new X.V_()),t.z),$async$wZ)
 case 3:q=d.a
 s=1
 break
@@ -74083,7 +74083,7 @@ var $async$wY=P.G(function(b,c){if(b===1)return P.I(c,r)
 while(true)switch(s){case 0:o=p.a.wT()
 p.a.toString
 s=3
-return P.R(o.Gb(0,"https://localhost:5001/api//session/download",B.aoJ(!1,C.dH,new F.a9N()),t.z),$async$wY)
+return P.R(o.Gb(0,"https://jw-depot-api.azurewebsites.net/api//session/download",B.aoJ(!1,C.dH,new F.a9N()),t.z),$async$wY)
 case 3:q=c.a
 s=1
 break
@@ -74216,7 +74216,7 @@ D.qX.prototype={
 wT:function(){var s=t.z,r=J.ck(this.c.giL().tB(0,"Token",s))
 if(r==null)r=""
 this.d=r
-s=B.aCV("https://localhost:5001/api/",3000,P.aC(["Authorization","Bearer "+r],t.a,s),2000)
+s=B.aCV("https://jw-depot-api.azurewebsites.net/api/",3000,P.aC(["Authorization","Bearer "+r],t.a,s),2000)
 r=new U.XQ($,new L.I8(H.b([],t.lC),new L.y3(),new L.y3(),new L.y3()),$,new Q.XE(),!1)
 r.PV$=s
 r.PW$=new B.VY(H.b([],t.Hh))
