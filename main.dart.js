@@ -72493,7 +72493,7 @@ if(n==null){s=1
 break}o=p.dx
 o.sk(0,!0)
 p.db.toString
-m=P.ajM("https","keinthmac.com:5000","api/session/handshake",null)
+m=P.ajM("http","keinthmac.com:5000","api/session/handshake",null)
 l=t._
 k=P.aC(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=4
@@ -72520,7 +72520,7 @@ j.sk(0,"")
 p=q.dx
 p.sk(0,!0)
 q.db.toString
-o=P.ajM("https","keinthmac.com:5000","api/session/authenticate",null)
+o=P.ajM("http","keinthmac.com:5000","api/session/authenticate",null)
 n=t._
 m=P.aC(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=2
@@ -72615,7 +72615,7 @@ o=q.dx.gis().tt(0,"Token",p)
 q.db.toString
 n=t._
 s=2
-return P.O(G.aJr(P.ajM("https","keinthmac.com:5000","api/session/fetch",null),P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.d(o)],n,n)),$async$x6)
+return P.O(G.aJr(P.ajM("http","keinthmac.com:5000","api/session/fetch",null),P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.d(o)],n,n)),$async$x6)
 case 2:m=b
 if(m.b===200){p=T.aFG(C.T.ck(0,B.Tl(J.ah(U.T9(m.e).c.a,"charset")).ck(0,m.x)))
 q.fr=p
@@ -72681,7 +72681,7 @@ q.dy.sk(0,"Signing document")
 o=t.z
 n=q.fr.gis().tt(0,"Token",o)
 q.db.toString
-m=P.ajM("https","keinthmac.com:5000","api/session/sign",null)
+m=P.ajM("http","keinthmac.com:5000","api/session/sign",null)
 l=t._
 k=P.aC(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+H.d(n)],l,l)
 s=2
@@ -72840,7 +72840,7 @@ var $async$wX=P.G(function(c,d){if(c===1)return P.I(d,r)
 while(true)switch(s){case 0:o=p.a.wR()
 p.a.toString
 s=3
-return P.O(o.G2(0,"https://keinthmac.com:5000/api//accounts/receipt/"+H.d(a),B.anJ(!1,C.ju,new X.U0()),t.z),$async$wX)
+return P.O(o.G2(0,"http://keinthmac.com:5000/api//accounts/receipt/"+H.d(a),B.anJ(!1,C.ju,new X.U0()),t.z),$async$wX)
 case 3:q=d.a
 s=1
 break
@@ -73016,7 +73016,7 @@ var $async$wW=P.G(function(b,c){if(b===1)return P.I(c,r)
 while(true)switch(s){case 0:o=p.a.wR()
 p.a.toString
 s=3
-return P.O(o.G2(0,"https://keinthmac.com:5000/api//session/download",B.anJ(!1,C.ju,new F.a8X()),t.z),$async$wW)
+return P.O(o.G2(0,"http://keinthmac.com:5000/api//session/download",B.anJ(!1,C.ju,new F.a8X()),t.z),$async$wW)
 case 3:q=c.a
 s=1
 break
@@ -73133,7 +73133,7 @@ D.qT.prototype={
 wR:function(){var s=t.z,r=J.cb(this.c.gis().tt(0,"Token",s))
 if(r==null)r=""
 this.d=r
-s=B.aCa("https://keinthmac.com:5000/api/",3000,P.aC(["Authorization","Bearer "+r],t._,s),2000)
+s=B.aCa("http://keinthmac.com:5000/api/",3000,P.aC(["Authorization","Bearer "+r],t._,s),2000)
 r=new U.WV($,new L.HT(H.b([],t.lC),new L.xL(),new L.xL(),new L.xL()),$,new Q.WJ(),!1)
 r.Pn$=s
 r.Po$=new B.V0(H.b([],t.Hh))
