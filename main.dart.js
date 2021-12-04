@@ -74608,7 +74608,7 @@ A.rB.prototype={
 H(a,b){var s,r=null
 A.N_(A.c([B.nx],t.gY))
 s=t.t
-return A.p0(r,A.atz(!1,A.Jz(A.c([A.b7(r,150,r),this.aeh(),this.ahl(),this.aaS(),A.a6(r,A.ed(A.bi(A.c([A.Q("BD Remote Signing App",r,r,r,A.a9(r,r,r,r,r,r,r,r,r,r,r,14,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.Q("v1.0.1",r,r,r,A.a9(r,r,r,r,r,r,r,r,r,r,r,12,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.n,B.r,B.m),r,r),B.h,r,r,r,r,r,r,new A.Z(10,10,10,10),r,r,r,r)],s),r,r,!1,!1)),r,r)},
+return A.p0(r,A.atz(!1,A.Jz(A.c([A.b7(r,150,r),this.aeh(),this.ahl(),this.aaS(),A.a6(r,A.ed(A.bi(A.c([A.Q("BD Remote Signing App",r,r,r,A.a9(r,r,r,r,r,r,r,r,r,r,r,14,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.Q("v1.1.0",r,r,r,A.a9(r,r,r,r,r,r,r,r,r,r,r,12,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.n,B.r,B.m),r,r),B.h,r,r,r,r,r,r,new A.Z(10,10,10,10),r,r,r,r)],s),r,r,!1,!1)),r,r)},
 aeh(){var s,r,q=null
 $.af()
 s=$.b8().x1
@@ -74856,7 +74856,7 @@ if(n==null){s=1
 break}o=p.dx
 o.sk(0,!0)
 p.db.toString
-m=A.amq("https","localhost:5001","api/session/handshake",null)
+m=A.amq("https","jw-depot-api.azurewebsites.net","api/session/handshake",null)
 l=t.d
 k=A.aF(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=4
@@ -74883,7 +74883,7 @@ j.sk(0,"")
 p=q.dx
 p.sk(0,!0)
 q.db.toString
-o=A.amq("https","localhost:5001","api/session/authenticate",null)
+o=A.amq("https","jw-depot-api.azurewebsites.net","api/session/authenticate",null)
 n=t.d
 m=A.aF(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=2
@@ -74968,7 +74968,7 @@ o=A.a(q.dx.c,"_concrete").t3(0,"Token",p)
 q.db.toString
 n=t.d
 s=2
-return A.S(A.aMD(A.amq("https","localhost:5001","api/session/fetch",null),A.aF(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(o)],n,n)),$async$w8)
+return A.S(A.aMD(A.amq("https","jw-depot-api.azurewebsites.net","api/session/fetch",null),A.aF(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(o)],n,n)),$async$w8)
 case 2:m=b
 if(m.b===200){p=A.aIQ(B.P.cq(0,A.UZ(J.a8(A.UN(m.e).c.a,"charset")).cq(0,m.x)))
 q.fr=p
@@ -75030,7 +75030,7 @@ q.dy.sk(0,"Signing document")
 o=t.z
 n=A.a(q.fr.c,"_concrete").t3(0,"Token",o)
 q.db.toString
-m=A.amq("https","localhost:5001","api/session/sign",null)
+m=A.amq("https","jw-depot-api.azurewebsites.net","api/session/sign",null)
 l=t.d
 k=A.aF(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(n)],l,l)
 s=2
@@ -75137,7 +75137,7 @@ var $async$w4=A.H(function(c,d){if(c===1)return A.I(d,r)
 while(true)switch(s){case 0:o=p.a.CH()
 p.a.toString
 s=3
-return A.S(o.Rc(0,"https://localhost:5001/api//accounts/receipt/"+A.d(a),A.avE(!1,B.fe,new A.VL()),t.z),$async$w4)
+return A.S(o.Rc(0,"https://jw-depot-api.azurewebsites.net/api//accounts/receipt/"+A.d(a),A.avE(!1,B.fe,new A.VL()),t.z),$async$w4)
 case 3:q=d.a
 s=1
 break
@@ -75460,7 +75460,7 @@ A.rg.prototype={
 CH(){var s=t.z,r=J.cv(A.a(this.c.c,"_concrete").t3(0,"Token",s))
 if(r==null)r=""
 this.d=r
-s=A.aF1("https://localhost:5001/api/",1e4,A.aF(["Authorization","Bearer "+r],t.d,s),1e4)
+s=A.aF1("https://jw-depot-api.azurewebsites.net/api/",1e4,A.aF(["Authorization","Bearer "+r],t.d,s),1e4)
 r=new A.YI($,new A.J6(A.c([],t.lC),new A.yD(),new A.yD(),new A.yD()),$,new A.Yx(),!1)
 r.Ok$=s
 r.Ol$=new A.WN(A.c([],t.Hh))
