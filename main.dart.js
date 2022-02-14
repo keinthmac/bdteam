@@ -75616,7 +75616,7 @@ A.rP.prototype={
 H(a,b){var s,r=null
 A.Nt(A.b([B.nw],t.gY))
 s=t.t
-return A.p9(r,A.auU(!1,A.JZ(A.b([A.aX(r,150,r),this.aeV(),this.ai2(),this.abt(),A.a1(r,A.e6(A.b3(A.b([A.L("BD Remote Signing App",r,r,r,A.X(r,r,r,r,r,r,r,r,r,r,r,14,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.L("v1.3.3",r,r,r,A.X(r,r,r,r,r,r,r,r,r,r,r,12,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.m,B.r,B.l),r,r),B.f,r,r,r,r,r,r,new A.W(10,10,10,10),r,r,r,r)],s),r,r,!1,!1)),r,r)},
+return A.p9(r,A.auU(!1,A.JZ(A.b([A.aX(r,150,r),this.aeV(),this.ai2(),this.abt(),A.a1(r,A.e6(A.b3(A.b([A.L("BD Remote Signing App",r,r,r,A.X(r,r,r,r,r,r,r,r,r,r,r,14,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.L("v1.4.0",r,r,r,A.X(r,r,r,r,r,r,r,r,r,r,r,12,r,B.M,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.m,B.r,B.l),r,r),B.f,r,r,r,r,r,r,new A.W(10,10,10,10),r,r,r,r)],s),r,r,!1,!1)),r,r)},
 aeV(){var s,r,q=null
 $.ag()
 s=$.bw().ap
