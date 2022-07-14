@@ -75871,7 +75871,7 @@ if(n==null){s=1
 break}o=p.dx
 o.sk(0,!0)
 p.db.toString
-m=A.anG("https","keinthmac.com/services","session/handshake",null)
+m=A.anG("https","keinthmac.com","services/session/handshake",null)
 l=t.bD
 k=A.aJ(["Content-Type","application/json; charset=UTF-8"],l,l)
 s=4
@@ -75898,7 +75898,7 @@ j.sk(0,"")
 p=q.dx
 p.sk(0,!0)
 q.db.toString
-o=A.anG("https","keinthmac.com/services","session/authenticate",null)
+o=A.anG("https","keinthmac.com","services/session/authenticate",null)
 n=t.bD
 m=A.aJ(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=2
@@ -75983,7 +75983,7 @@ o=A.a(q.dx.c,"_concrete").tg(0,"Token",p)
 q.db.toString
 n=t.bD
 s=2
-return A.P(A.aO4(A.anG("https","keinthmac.com/services","session/fetch",null),A.aJ(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(o)],n,n)),$async$wm)
+return A.P(A.aO4(A.anG("https","keinthmac.com","services/session/fetch",null),A.aJ(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(o)],n,n)),$async$wm)
 case 2:m=b
 if(m.b===200){p=A.aKh(B.P.cs(0,A.Vx(J.ab(A.Vl(m.e).c.a,"charset")).cs(0,m.x)))
 q.fr=p
@@ -76045,7 +76045,7 @@ q.dy.sk(0,"Signing document")
 o=t.z
 n=A.a(q.fr.c,"_concrete").tg(0,"Token",o)
 q.db.toString
-m=A.anG("https","keinthmac.com/services","session/sign",null)
+m=A.anG("https","keinthmac.com","services/session/sign",null)
 l=t.bD
 k=A.aJ(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.d(n)],l,l)
 s=2
