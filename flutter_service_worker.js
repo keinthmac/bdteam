@@ -5,20 +5,21 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "assets/AssetManifest.json": "a79a10b92fb6f0f7d302d0135cb5f379",
 "assets/FontManifest.json": "8f28c907ba98c0324bf4458e9f41e937",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/fonts/OpenSans-Regular.ttf": "3ed9575dcc488c3e3a5bd66620bdf5a4",
-"assets/NOTICES": "7147eb1bfe7c65d476d4cd8814d50b03",
+"assets/NOTICES": "68c99464d7c90e4e69bf1e7b4d2f2a01",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
-"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb",
-"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
-"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "d8827788ce85114af79017d6f7c03630",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "17d1ccc9da3279b99e3bb14ecaf3f60c",
-"/": "17d1ccc9da3279b99e3bb14ecaf3f60c",
-"main.dart.js": "e077ed3a00fda27d69b9732c3e650b5e",
+"index.html": "a63064e0f54063d0e7e732a4e1f69602",
+"/": "a63064e0f54063d0e7e732a4e1f69602",
+"main.dart.js": "d884af47bd3b543e32fba08cfc234726",
 "manifest.json": "6e06320119f240404503be8f4aa5c8a7",
 "version.json": "f42963cc2e10ee03a2e846e73e172854"
 };
@@ -26,8 +27,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
