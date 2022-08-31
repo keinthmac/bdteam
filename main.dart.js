@@ -77152,7 +77152,7 @@ k=$.bs().xr
 k.toString
 k=$.D.t$.z.h(0,k).J(t.w).f
 j=a2.length
-k=A.a1(b,A.kf(new A.a4G(a2),j,new A.hC(b),B.X,!0),B.h,b,b,b,b,70,b,b,b,b,b,k.a.a-10)
+k=A.a1(b,A.kf(new A.a4G(a2),j,new A.hC(b),B.X,!0),B.h,b,b,b,b,100,b,b,b,b,b,k.a.a-10)
 j=A.a1(b,b,B.h,B.q,b,b,b,1,b,new A.X(0,0,0,0),b,b,b,b)
 i=t.t
 a=A.aZ(A.b([new A.fk(1,B.aX,A.G("Total",b,b,b,A.O(b,b,b,b,b,b,b,b,b,b,b,14,b,B.o,b,b,!0,b,b,b,b,b,b,b,b),b,b),b),A.aH(b,b,20),A.G(B.e.bj(a.a,2),b,b,b,A.O(b,b,b,b,b,b,b,b,b,b,b,14,b,B.o,b,b,!0,b,b,b,b,b,b,b,b),b,b)],i),B.n,B.a8,B.m)
