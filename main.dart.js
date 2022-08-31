@@ -78721,7 +78721,7 @@ var $async$wz=A.M(function(c,d){if(c===1)return A.I(d,r)
 while(true)switch(s){case 0:o=p.a.Dw()
 p.a.toString
 s=3
-return A.Q(o.RU(0,"https://localhost:5001/api/accounts/receipt/"+A.d(a),A.ayF(!1,B.fv,new A.X5()),t.z),$async$wz)
+return A.Q(o.RU(0,"https://keinthmac.com/services/accounts/receipt/"+A.d(a),A.ayF(!1,B.fv,new A.X5()),t.z),$async$wz)
 case 3:q=d.a
 s=1
 break
@@ -79046,7 +79046,7 @@ A.tt.prototype={
 Dw(){var s=t.z,r=J.c5(A.a(this.b.c,"_concrete").tl(0,"Token",s))
 if(r==null)r=""
 this.c=r
-s=A.aIc("https://localhost:5001/api/",1e4,A.aQ(["Authorization","Bearer "+r],t.bD,s),1e4)
+s=A.aIc("https://keinthmac.com/services/",1e4,A.aQ(["Authorization","Bearer "+r],t.bD,s),1e4)
 r=new A.a_5($,new A.KG(A.b([],t.lC),new A.Ag(),new A.Ag(),new A.Ag()),$,new A.ZV(),!1)
 r.P_$=s
 r.P0$=new A.Y3(A.b2(t.Gf))
