@@ -77783,6 +77783,8 @@ if(!!o.fixed$length)A.L(A.T("removeWhere"))
 B.b.nL(o,new A.a5y(),!0)
 o=p.cy
 if(J.e(o.gk(o),3)){o=p.x2
+o=o.gk(o).c!=null}else o=!1
+if(o){o=p.x2
 a.w=o.gk(o)}s=3
 return A.M(p.k3.jA(a),$async$jA)
 case 3:n=c
@@ -78137,7 +78139,7 @@ s=n.ay
 if(s.gk(s))o=A.X(p,A.kp(new A.a7l(),30,new A.hd(p),B.Y,!0),B.h,p,p,p,p,p,p,p,p,p,p,p)
 else{n=n.p2
 n=A.X(p,A.NX(A.kp(new A.a7m(o),J.aU(n.gk(n)),new A.hd(p),B.Y,!0),p,p),B.h,p,p,p,p,p,p,new A.U(0,5,0,5),p,p,p,p)
-o=n}return A.X(p,A.aH(A.b([m,A.zx(A.Az(A.b([o],r),p,new A.hd(p),!1,!0),1),A.X(p,A.x("Version 4.0.0",p,p,p,A.N(p,p,p,p,p,p,p,p,p,p,p,10,p,B.o,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.h,p,p,p,p,p,p,new A.U(0,5,0,5),new A.U(0,0,0,10),p,p,p)],r),B.m,B.p,B.k),B.h,p,p,p,p,this.b.b,p,p,p,p,p,p)},
+o=n}return A.X(p,A.aH(A.b([m,A.zx(A.Az(A.b([o],r),p,new A.hd(p),!1,!0),1),A.X(p,A.x("Version 4.0.1",p,p,p,A.N(p,p,p,p,p,p,p,p,p,p,p,10,p,B.o,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.h,p,p,p,p,p,p,new A.U(0,5,0,5),new A.U(0,0,0,10),p,p,p)],r),B.m,B.p,B.k),B.h,p,p,p,p,this.b.b,p,p,p,p,p,p)},
 $S:31}
 A.a7l.prototype={
 $2(a,b){var s=null,r=A.fj(10),q=A.b([new A.bv(2,B.K,B.aA,new A.n(3,3),3)],t.Q)
@@ -78525,22 +78527,22 @@ o=A.af(new A.a2(p,new A.a6Z(),o),!0,o.i("aK.E"))
 p=o}return A.X(s,A.zN(!1,r,!0,s,p,"transactionTypeId",new A.a7_(q),s,s,t.e),B.h,s,s,s,s,s,s,new A.U(10,10,10,10),s,s,s,s)},
 $S:31}
 A.a7_.prototype={
-$1(a){var s=0,r=A.J(t.P),q=this,p,o,n
+$1(a){var s=0,r=A.J(t.P),q=this,p,o
 var $async$$1=A.K(function(b,c){if(b===1)return A.G(c,r)
-while(true)switch(s){case 0:o=q.a
-n=o.c
-n.cy.sk(0,a)
-n.x2.sk(0,new A.qM(null,null,null,null))
-o=o.d
-p=o.gY().e.h(0,"groupId")
-if(p!=null)p.da(null)
-o=o.gY().e.h(0,"chartOfAccountId")
-if(o!=null)o.da(null)
+while(true)switch(s){case 0:p=q.a
+o=p.c
+o.cy.sk(0,a)
+o.x2.sk(0,new A.qM(null,null,null,null))
 s=2
-return A.M(n.yt(a),$async$$1)
+return A.M(o.yt(a),$async$$1)
 case 2:s=3
-return A.M(n.yq(),$async$$1)
-case 3:return A.H(null,r)}})
+return A.M(o.yq(),$async$$1)
+case 3:p=p.d
+o=p.gY().e.h(0,"groupId")
+if(o!=null)o.da(null)
+p=p.gY().e.h(0,"chartOfAccountId")
+if(p!=null)p.da(null)
+return A.H(null,r)}})
 return A.I($async$$1,r)},
 $S:84}
 A.a6Y.prototype={
@@ -78638,8 +78640,12 @@ return A.H(null,r)}})
 return A.I($async$$1,r)},
 $S:84}
 A.a6t.prototype={
-$0(){var s=null,r=this.a,q=r.c.to,p=J.aU(q.gk(q)),o=q.$ti.i("a2<Y.E,dc<l*>*>")
-return A.qR(A.X(s,A.zN(!0,B.bT,!0,A.x("Chart of accounts",s,s,s,s,s,s),A.af(new A.a2(q,new A.a6p(),o),!0,o.i("aK.E")),"chartOfAccountId",new A.a6q(r),new A.a6r(r),new A.a6s(),t.e),B.h,s,s,s,s,s,s,new A.U(10,10,10,10),s,s,s,s),!1,p>0)},
+$0(){var s,r,q=null,p=this.a,o=p.c,n=o.cy
+n=J.e(n.gk(n),3)
+s=A.x("Chart of accounts",q,q,q,q,q,q)
+o=o.to
+r=o.$ti.i("a2<Y.E,dc<l*>*>")
+return A.qR(A.X(q,A.zN(!0,B.bT,!0,s,A.af(new A.a2(o,new A.a6p(),r),!0,r.i("aK.E")),"chartOfAccountId",new A.a6q(p),new A.a6r(p),new A.a6s(),t.e),B.h,q,q,q,q,q,q,new A.U(10,10,10,10),q,q,q,q),!1,n)},
 $S:66}
 A.a6p.prototype={
 $1(a){var s=null,r=t.t
@@ -79153,7 +79159,7 @@ A.u5.prototype={
 H(a,b){var s,r=null
 A.OR(A.b([B.nS],t.gY))
 s=t.t
-return A.X(r,A.kJ(r,A.uM(!0,A.aH(A.b([A.zx(A.dM(A.Az(A.b([this.agM(),this.ak9(),this.adl(),A.X(r,A.dM(A.aH(A.b([A.x("BD Remote Signing App",r,r,r,A.N(r,r,r,r,r,r,r,r,r,r,r,14,r,B.I,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.x("v4.0.0",r,r,r,A.N(r,r,r,r,r,r,r,r,r,r,r,12,r,B.I,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.m,B.p,B.k),r,r),B.h,r,r,r,r,r,r,new A.U(10,10,10,10),r,r,r,r)],s),r,r,!1,!0),r,r),1)],s),B.m,B.p,B.k),!0,B.at,!0,!0),r),B.h,r,r,r,r,r,r,r,r,r,r,r)},
+return A.X(r,A.kJ(r,A.uM(!0,A.aH(A.b([A.zx(A.dM(A.Az(A.b([this.agM(),this.ak9(),this.adl(),A.X(r,A.dM(A.aH(A.b([A.x("BD Remote Signing App",r,r,r,A.N(r,r,r,r,r,r,r,r,r,r,r,14,r,B.I,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.x("v4.0.1",r,r,r,A.N(r,r,r,r,r,r,r,r,r,r,r,12,r,B.I,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.m,B.p,B.k),r,r),B.h,r,r,r,r,r,r,new A.U(10,10,10,10),r,r,r,r)],s),r,r,!1,!0),r,r),1)],s),B.m,B.p,B.k),!0,B.at,!0,!0),r),B.h,r,r,r,r,r,r,r,r,r,r,r)},
 agM(){var s,r,q=null
 $.a3()
 s=$.bb().xr
@@ -80429,7 +80435,7 @@ A.tJ.prototype={
 DN(){var s=t.z,r=J.bN(A.a(this.b.c,"_concrete").lL(0,"Token",s))
 if(r==null)r=""
 this.c=r
-s=A.aKl("https://keinthmac.com/services/",1e4,A.aN(["Authorization","Bearer "+r],t.R,s),1e4)
+s=A.aKl("https://keinthmac.com/services/",6e4,A.aN(["Authorization","Bearer "+r],t.R,s),6e4)
 r=new A.a_I($,new A.L5(A.b([],t.lC),new A.AE(),new A.AE(),new A.AE()),$,new A.a_x(),!1)
 r.Pk$=s
 r.Pl$=new A.YH(A.b4(t.Gf))
