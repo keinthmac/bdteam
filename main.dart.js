@@ -80117,7 +80117,7 @@ var $async$wM=A.K(function(c,d){if(c===1)return A.G(d,r)
 while(true)switch(s){case 0:o=p.a.DN()
 p.a.toString
 s=3
-return A.N(o.Sl(0,"https://localhost:5001/api/accounts/receipt/"+A.d(a),A.aAE(!1,B.fu,new A.XD()),t.z),$async$wM)
+return A.N(o.Sl(0,"https://keinthmac.com/services/accounts/receipt/"+A.d(a),A.aAE(!1,B.fu,new A.XD()),t.z),$async$wM)
 case 3:q=d.a
 s=1
 break
@@ -80508,7 +80508,7 @@ A.tK.prototype={
 DN(){var s=t.z,r=J.bO(A.a(this.b.c,"_concrete").lM(0,"Token",s))
 if(r==null)r=""
 this.c=r
-s=A.aKt("https://localhost:5001/api/",6e4,A.aN(["Authorization","Bearer "+r],t.R,s),6e4)
+s=A.aKt("https://keinthmac.com/services/",6e4,A.aN(["Authorization","Bearer "+r],t.R,s),6e4)
 r=new A.a_J($,new A.L6(A.b([],t.lC),new A.AF(),new A.AF(),new A.AF()),$,new A.a_y(),!1)
 r.Pk$=s
 r.Pl$=new A.YI(A.b4(t.Gf))
