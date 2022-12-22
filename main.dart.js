@@ -78301,7 +78301,7 @@ s=n.ay
 if(s.gk(s))o=o.a_G()
 else{n=n.p3
 n=A.S(p,A.O1(A.kt(new A.a7v(o),J.aU(n.gk(n)),new A.fM(p),B.Z,!0),p,p),B.h,p,p,p,p,p,p,new A.R(0,5,0,5),p,p,p,p)
-o=n}return A.S(p,A.ar(A.b([m,A.zE(A.ua(A.b([o],r),p,new A.fM(p),!1,!0),1),A.S(p,A.t("Version 4.1.0",p,p,p,A.E(p,p,p,p,p,p,p,p,p,p,p,10,p,B.o,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.h,p,p,p,p,p,p,new A.R(0,5,0,5),new A.R(0,0,0,10),p,p,p)],r),B.k,B.p,B.j),B.h,p,p,p,p,this.b.b,p,p,p,p,p,p)},
+o=n}return A.S(p,A.ar(A.b([m,A.zE(A.ua(A.b([o],r),p,new A.fM(p),!1,!0),1),A.S(p,A.t("Version 4.2.0",p,p,p,A.E(p,p,p,p,p,p,p,p,p,p,p,10,p,B.o,p,p,!0,p,p,p,p,p,p,p,p),p,p),B.h,p,p,p,p,p,p,new A.R(0,5,0,5),new A.R(0,0,0,10),p,p,p)],r),B.k,B.p,B.j),B.h,p,p,p,p,this.b.b,p,p,p,p,p,p)},
 $S:34}
 A.a7v.prototype={
 $2(a,b){var s=null,r=A.fl(10),q=A.b([new A.bx(2,B.L,B.aA,new A.n(3,3),3)],t.R),p=this.a,o=t.t,n=A.ar(A.b([A.aBl(s,A.bP(B.Ei,A.aj(255,4,139,74),s),new A.a7p(p,b),new A.a7q(p,b),"More Actions",t.e)],o),B.aL,B.R,B.j),m=A.aj(255,236,121,44),l=p.c,k=l.p3
@@ -79325,7 +79325,7 @@ A.uc.prototype={
 H(a,b){var s,r=null
 A.OW(A.b([B.nT],t.gY))
 s=t.t
-return A.S(r,A.i1(r,A.uV(!0,A.ar(A.b([A.zE(A.du(A.ua(A.b([this.agQ(),this.akd(),this.adp(),A.S(r,A.du(A.ar(A.b([A.t("BD Remote Signing App",r,r,r,A.E(r,r,r,r,r,r,r,r,r,r,r,14,r,B.K,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.t("v4.1.0",r,r,r,A.E(r,r,r,r,r,r,r,r,r,r,r,12,r,B.K,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.k,B.p,B.j),r,r),B.h,r,r,r,r,r,r,new A.R(10,10,10,10),r,r,r,r)],s),r,r,!1,!0),r,r),1)],s),B.k,B.p,B.j),!0,B.au,!0,!0),r),B.h,r,r,r,r,r,r,r,r,r,r,r)},
+return A.S(r,A.i1(r,A.uV(!0,A.ar(A.b([A.zE(A.du(A.ua(A.b([this.agQ(),this.akd(),this.adp(),A.S(r,A.du(A.ar(A.b([A.t("BD Remote Signing App",r,r,r,A.E(r,r,r,r,r,r,r,r,r,r,r,14,r,B.K,r,r,!0,r,r,r,r,r,r,r,r),r,r),A.t("v4.2.0",r,r,r,A.E(r,r,r,r,r,r,r,r,r,r,r,12,r,B.K,r,r,!0,r,r,r,r,r,r,r,r),r,r)],s),B.k,B.p,B.j),r,r),B.h,r,r,r,r,r,r,new A.R(10,10,10,10),r,r,r,r)],s),r,r,!1,!0),r,r),1)],s),B.k,B.p,B.j),!0,B.au,!0,!0),r),B.h,r,r,r,r,r,r,r,r,r,r,r)},
 agQ(){var s,r,q=null
 $.Z()
 s=$.b2().xr
